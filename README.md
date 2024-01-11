@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-coder name dagmawi amare more contact .amaredagmawi1@gmail.com phone 0985187059
+coder name fuad mohammed more contact .fuadmnur19@gmail.com
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
