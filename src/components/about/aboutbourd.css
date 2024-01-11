@@ -1,0 +1,142 @@
+/* ServicePage.css */
+
+.about-page {
+    display: flex;
+    min-height: 100vh;
+    background: repeating-linear-gradient(90deg,   #000000 , #27385c 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../../public/Image/online-sales.jpg) no-repeat center 0/cover;
+
+
+    /* background :url(../../../public/yf59Zgk-world-wide-web-wallpaper.jpg) no-repeat center 0/cover; */
+  }
+
+    
+
+  .about-section h1{
+    color: var(--primaryColor);
+  }
+  .her-title {
+    font-size: 30px;
+    margin-bottom: 1%;
+   
+
+  }
+  
+  .her-subtitle {
+    font-size: 16px;
+   margin-bottom: 1%;
+  }
+  .about-section {
+    flex: 1;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+  }
+  
+  .about-text {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .b-s{
+    width: 75%;
+    padding: 20px;
+    background: #27385c;
+    border-radius: 0  30px 30px 0 ;
+    box-shadow: 0  10px 10px  10px #000000;
+
+  }
+  .contact-button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  
+  .aboutimg-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+   
+   
+   
+  }
+  
+  .about-image {
+    width:70%; 
+     height:auto;
+     
+    object-fit: cover;
+    margin-left: auto;
+    
+  }
+  @media screen and (max-width: 768px){
+    .about-page{
+        flex-direction:column;
+    }
+    .aboutimg-section {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .her-title{
+        margin-top: 10vh;
+    }
+
+    
+ .b-s{
+  width: 100%;
+ }
+  
+}
+
+
+.about-section {
+    
+  
+   
+  border-radius: 10px;
+ 
+  transition: transform 0.3s ease-in-out; 
+  
+}
+.b-s:hover{
+background: #30203a;
+}
+  .contact-button {
+    
+  
+    background: #4caf50;
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+  
+    &:hover {
+      background: #8fa045;
+    }
+  }
+  
+  .aboutimg-section {
+  
+    overflow: hidden;
+  }
+   
+  .about-image {
+    
+    width: 60%;
+
+    transform: translate3d(0, 0, 0); 
+    transition: transform 0.3s ease-in-out;
+    border-radius: 0  20px 0 0 ;
+   
+  }
+ 
